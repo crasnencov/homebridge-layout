@@ -33,7 +33,7 @@
 <script> var customStyleImgUrl = "http://theme.crumina.net/onetouch/wp-content/themes/theme_v_1.tmp/inc/custom_style/assets/img/";</script>
 <!-- Add your site or application content here -->
 <div id="main_container" class="full-width">
-<div class="container">
+<div class="container metrouicss">
     <header id="main_header">
         <a class="logo" href="http://localhost/homebridge/"><img title="Home Bridge Reality Group"
                                                                  alt="Home Bridge Reality Group"
@@ -49,6 +49,10 @@
                 <li><a href="#" title="Help">Help</a></li>
             </ul>
         </div>
+        <!--<div class="input-control text">-->
+            <!--<input type="text" />-->
+            <!--<button class="btn-search"></button>-->
+        <!--</div>-->
     </header>
 </div>
 <div id="main_menu" class="full-width">
@@ -78,7 +82,7 @@
         <p class="reg-form-instruct">Save your time by signing up with your social network accounts</p>
 
         <div class="cpl-arrow"><img class="cpl-arrow-img" src="images/cpl_arrow.png"></div>
-        <div style="position: relative; right: 50%; float: right;">
+        <div class="align-center-to-left">
             <div class="sign-social-btns">
                 <a class="sign-linkedin" href="#" alt="linkedin" title="LinkedIn"></a>
                 <a class="sign-facebook" href="#" alt="facebook" title="Facebook"></a>
@@ -276,10 +280,6 @@
         <p class="reg-form-title">Sign In Information</p>
 
         <div class="input-container">
-            <!--<div class="row-fluid password-title">-->
-
-
-            <!--</div>-->
             <div class="metrouicss row-fluid">
                 <div class="span6">
                     <p class="password-title">Create a password</p>
@@ -303,10 +303,14 @@
 </div>
 
 </div>
-<div id="reg_form_footer">
-    <p class="pull-left margin10top">Click <strong>Next</strong> to agree to the <a href="#">HomeBridgeReality.com
-        services
-        agreement</a> and <a href="#">privacy & cookies statement</a>.</p>
+<div id="reg_form_footer" class="metrouicss">
+    <label class="input-control checkbox">
+        <input type="checkbox" class="">
+
+        <span class="helper">Click <strong>Next</strong> to agree to the <a href="#">HomeBridgeReality.com
+            services
+            agreement</a> and <a href="#">privacy & cookies statement</a>.</span>
+    </label>
     <button id="i_agree_btn" class="pull-right">Next<img class="pull-right" src="images/i_agree_btn.png"></button>
 </div>
 </div>

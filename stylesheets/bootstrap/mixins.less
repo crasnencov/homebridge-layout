@@ -705,14 +705,11 @@
 .styled-blue-btn() {
   font-family: @ptSans;
   color: @white;
-  background: #3FBBED;
-  background: -moz-linear-gradient(top, #3FBBED 1%, #3AB8EC 42%, #3FBBED 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#3FBBED), color-stop(42%,#3AB8EC), color-stop(100%,#3FBBED));
-  background: -webkit-linear-gradient(top, #3FBBED 1%,#3AB8EC 42%,#3FBBED 100%);
-  background: -o-linear-gradient(top, #3FBBED 1%,#3AB8EC 42%,#3FBBED 100%);
-  background: -ms-linear-gradient(top, #3FBBED 1%,#3AB8EC 42%,#3FBBED 100%);
-  background: linear-gradient(to bottom, #3FBBED 1%,#3AB8EC 42%,#3FBBED 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3fbbed', endColorstr='#3fbbed',GradientType=0 );
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background-color: @blueButton;
   &:hover {
     background: @blueMenu;
   }
